@@ -1,0 +1,16 @@
+file:
+  /go/src/app:
+    exists: true
+    filetype: directory
+  hello-world.txt:
+    exists: true
+    filetype: file
+    mode: "0644"
+
+gossfile:
+  a:
+    file: new-goss.yaml
+    skip: false
+  b:
+    file: skip-goss.yaml
+    skip: true
